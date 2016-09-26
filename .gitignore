@@ -9,6 +9,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
+env2/
 build/
 develop-eggs/
 dist/
@@ -59,6 +60,9 @@ instance/
 
 # Scrapy stuff:
 .scrapy
+.project
+.pydevproject
+.settings
 
 # Sphinx documentation
 docs/_build/

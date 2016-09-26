@@ -1,0 +1,13 @@
+protocol  size sockets  memory press maxhdr  slab module     cl co di ac io in de sh ss gs se re sp bi br ha uh gp em
+RAWv6      960      0      -1   NI       0   yes  ipv6        y  y  y  n  y  y  y  n  y  y  y  y  n  y  y  y  y  n  n
+UDPLITEv6  952      0      -1   NI       0   yes  ipv6        y  y  y  n  y  y  y  n  y  y  y  y  n  n  y  y  y  y  n
+UDPv6      952      8       2   NI       0   yes  ipv6        y  y  y  n  y  n  y  n  y  y  y  y  n  n  y  y  y  y  n
+TCPv6     1824     10       4   no     272   yes  ipv6        y  y  y  y  y  y  y  y  y  y  n  y  n  n  y  y  y  y  y
+PACKET     856      3      -1   NI       0   no   kernel      n  n  n  n  n  n  n  n  n  n  n  n  n  n  n  n  n  n  n
+UNIX       760     65      -1   NI       0   yes  kernel      n  n  n  n  n  n  n  n  n  n  n  n  n  n  n  n  n  n  n
+UDP-Lite   784      0      -1   NI       0   yes  kernel      y  y  y  n  y  y  y  n  y  y  y  y  y  n  y  y  y  y  n
+PING       752      0      -1   NI       0   yes  kernel      y  y  y  n  n  y  n  n  y  y  y  y  n  y  y  y  y  y  n
+RAW        760      0      -1   NI       0   yes  kernel      y  y  y  n  y  y  y  n  y  y  y  y  n  y  y  y  y  n  n
+UDP        784     12       2   NI       0   yes  kernel      y  y  y  n  y  n  y  n  y  y  y  y  y  n  y  y  y  y  n
+TCP       1656     44       4   no     272   yes  kernel      y  y  y  y  y  y  y  y  y  y  n  y  n  n  y  y  y  y  y
+NETLINK    720      7      -1   NI       0   no   kernel      n  n  n  n  n  n  n  n  n  n  n  n  n  n  n  n  n  n  n
