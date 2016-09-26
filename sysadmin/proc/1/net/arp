@@ -1,0 +1,11 @@
+IP address       HW type     Flags       HW address            Mask     Device
+172.16.99.2      0x1         0x2         fa:16:3e:66:de:69     *        eth2
+172.16.3.132     0x1         0x2         fa:16:3e:9d:31:65     *        eth1
+172.16.3.21      0x1         0x2         fa:16:3e:16:a9:1e     *        eth1
+172.16.3.150     0x1         0x2         fa:16:3e:33:ec:54     *        eth1
+192.168.3.21     0x1         0x2         fa:16:3e:63:fc:da     *        eth0
+172.16.3.149     0x1         0x2         fa:16:3e:a9:00:11     *        eth1
+172.16.3.134     0x1         0x2         fa:16:3e:3f:e8:b2     *        eth1
+172.16.3.1       0x1         0x2         fa:16:3e:9f:bf:4f     *        eth1
+172.16.3.133     0x1         0x2         fa:16:3e:af:2c:49     *        eth1
+192.168.3.1      0x1         0x2         fa:16:3e:fa:bd:55     *        eth0

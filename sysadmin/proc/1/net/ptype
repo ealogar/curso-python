@@ -1,0 +1,10 @@
+Type Device      Function
+ALL  eth2     packet_rcv+0x0/0x440
+ALL  eth1     packet_rcv+0x0/0x440
+ALL  eth0     packet_rcv+0x0/0x440
+0800          ip_rcv+0x0/0x350
+0806          arp_rcv+0x0/0x140
+dada          edsa_rcv+0x0/0x2b0
+001b          dsa_rcv+0x0/0x270
+001c          trailer_rcv+0x0/0x1b0
+86dd          ipv6_rcv+0x0/0x460 [ipv6]
