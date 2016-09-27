@@ -1,0 +1,3 @@
+Python is cool\n
+Python is cool\n
+python is cool\n
