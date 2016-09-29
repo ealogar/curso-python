@@ -1,4 +1,5 @@
 #-*- coding: utf-8 -*-
+from __future__ import unicode_literals, print_function
 import unittest
 import lib_to_test
 
@@ -11,31 +12,31 @@ class TestCaseExample(unittest.TestCase):
     def setUpClass(cls):
         """setUpClass is executed BEFORE all class tests and setUps
         """
-        print "SET_UP_CLASS"
+        print("SET_UP_CLASS")
         super(TestCaseExample, cls).setUpClass()
 
     @classmethod
     def tearDownClass(cls):
         """tearDownClass is executed AFTER all class tests and tearDowns
         """
-        print "TEAR_DOWN_CLASS"
+        print("TEAR_DOWN_CLASS")
         super(TestCaseExample, cls).tearDownClass()
 
     def setUp(self):
         """setUp is executed BEFORE each test
         """
-        print "SET_UP"
+        print("SET_UP")
 
     def tearDown(self):
         """tearDown is executed AFTER each test
         """
-        print "TEAR_DOWN"
+        print("TEAR_DOWN")
 
     # Some nosetests versions require 'test' to appear in the function name
     def test_sum(self):
         """This is an actual empty test
         """
-        print "TESTING"
+        print("TESTING")
 
 
 class TestMyMathLib(unittest.TestCase):
@@ -87,7 +88,7 @@ class TestMyMathLib(unittest.TestCase):
     def test_which_fails(self):
         """This test will fail
         """
-        self.assertTrue(False)
+        self.assertTrue(True)
 
     def test_which_crashes(self):
         """This test will crash
@@ -99,13 +100,13 @@ def setUpModule():
     """setUpModule is executed BEFORE all test classes
     """
     # Typically open connections, change settings
-    print "SET_UP_MODULE"
+    print("SET_UP_MODULE")
 
 
 def tearDownModule():
     """tearDownModule is executed AFTER all test classes
     """
-    print "TEAR_DOWN_MODULE"
+    print("TEAR_DOWN_MODULE")
 
 
 if __name__ == "__main__":
