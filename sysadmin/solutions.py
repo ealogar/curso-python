@@ -95,6 +95,16 @@ def linux_diskstats(disk):
             old[part] = cur[part]
         sleep(1)
 
+
+def parse_line(line):
+    import re
+    _, _, hour, host, _, _, dest = line.split()[:7]
+    try:
+        dest = re.split(r'[<>]', dest)[1]
+    except (IndexError, TypeError):
+        dest = None
+    return (hour, host, dest)
+
 if __name__ == "__main__":
     print(pgrep("firefox"))
     linux_diskstats("vda1")
