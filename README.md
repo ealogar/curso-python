@@ -5,8 +5,22 @@ Browse this course with the [online notebook viewer!](http://nbviewer.jupyter.or
 ## Setup
 If you use docker, build and run the image:
 
+You can build the container 
 ```sh
 $docker build -t curso-python .
+```
+
+or you can get it from artifactory (TID only):
+```sh
+$docker login dockerhub.hi.inet
+# It requests your TID user name and your TID password
+$docker pull dockerhub.hi.inet/calba/curso-python
+```
+
+once you have it
+
+
+```sh
 $docker run -d --name curso-python -p 8888:8888 curso-python
 ```
 
