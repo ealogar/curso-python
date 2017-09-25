@@ -1,4 +1,4 @@
-# Curso python para sysadmins
+# Curso python
 
 Browse this course with the [online notebook viewer!](http://nbviewer.jupyter.org/github/ealogar/curso-python/tree/master/)
 

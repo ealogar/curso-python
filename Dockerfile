@@ -23,6 +23,7 @@ COPY requirements.txt /requirements.txt
 COPY advanced /curso-python/advanced
 COPY basic /curso-python/basic
 COPY sysadmin /curso-python/sysadmin
+COPY best-practices /curso-python/best-practices
 
 # install requirements
 RUN pip install -r /requirements.txt
